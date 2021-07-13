@@ -2,10 +2,13 @@
 -----------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
+/*------------------------
+-------Common Style-------*/
 
 *{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 .container{
@@ -14,7 +17,32 @@
     justify-content: center
 }
 
-/* Button */
+/*------------------------
+-----------Nav--------Bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D25A0;
+    padding-top: 42px;
+    color: #FFFFFF;
+}
+nav ul{
+    display: inline-block;
+    padding: 0;
+}
+
+nav ul a{
+    margin-right: 36px;
+}
+
+nav ul a{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/*-------------------
+-----------Button------ */
+
 .button {
     width: 168px;
     padding: 10px 24px;
@@ -56,20 +84,28 @@
     right: 0;
 }
 
-/* Button */
 
-
-/* Header Part */
+/*-------------------------------
+-------------Header Part--------- */
 
 .header-banner{
     width: 100%;
+    height: 677px;
     display: flex;
     justify-content: space-evenly;
     background-color: #2D25A0;
 }
 
+.banner{
+    padding-top: 49px;
+}
+
 .banner img{
     width: 556.01px;
+}
+
+.header-title{
+    padding-top: 121px;
 }
 
 .header-title h1{
@@ -79,7 +115,8 @@
     margin-bottom: 27px;
 }
 
-/* All Players */
+/*------------------------
+----------All Players--------*/
 
 .all-players{
     display: grid;
@@ -116,7 +153,8 @@
     width: 300px;
 }
 
-/* Highlight */
+/*--------------------
+-------Highlight--- */
 
 .highlight-area{
     width: 100%;
@@ -148,7 +186,8 @@
     width: 567px;
 }
 
-/* Footer */
+/*----------------
+------Footer----- */
 
 footer{
     display: flex;
@@ -195,6 +234,9 @@ footer>p{
 .fa-vimeo {
     color: #aad450
 }
+
+/*-------------------------
+----------Media Query-----*/
 
 @media only screen and (max-width: 688px) {
     header{
@@ -272,9 +314,13 @@ footer>p{
 
 }
 
+/*-------------------------
+----------Media Query-----*/
+
 @media only screen and (min-width: 689px) and (max-width: 992px){
     header{
     width: 100%;
+    height: 500px;
     background-color: #2D25A0;
     }
     .header-banner{
@@ -347,9 +393,13 @@ footer>p{
 }
 }
 
+/*-------------------------
+----------Media Query-----*/
+
 @media only screen and (min-width: 993px) and (max-width: 1312px){
     header{
     width: 100%;
+    height: 500px;
     background-color: #2D25A0;
     }
     .header-banner{
