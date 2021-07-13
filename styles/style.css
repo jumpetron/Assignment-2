@@ -141,7 +141,7 @@
 
 .hightlight-image{
     position: relative;
-    left: 156px;
+    left: 120px;
 }
 
 .hightlight-image img{
@@ -170,6 +170,7 @@ footer>p{
 
 .social-icon ul{
     padding: 0;
+    cursor: pointer;
 }
 
 .social-icon ul li{
