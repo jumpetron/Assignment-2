@@ -572,6 +572,7 @@ footer>p{
 
     nav ul{
     position: fixed;
+    top: 0;
     left: -100%;
     background: #2D25A0;
     height: 450px;
@@ -583,7 +584,9 @@ footer>p{
 
     #click:checked ~ ul{
     left: 0;
+    z-index: 3;
     }
+
     nav ul li{
     width: 100%;
     margin: 20px 0;
