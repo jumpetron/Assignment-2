@@ -32,6 +32,7 @@ nav{
     color: #FFFFFF;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 nav ul{
@@ -137,6 +138,7 @@ input[type="checkbox"]{
     display: flex;
     justify-content: space-evenly;
     background-color: #2D25A0;
+    z-index: 1;
 }
 
 .banner{
@@ -604,4 +606,3 @@ footer>p{
     color: #FFFFFF;
     }
 }
-
