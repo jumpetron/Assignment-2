@@ -57,6 +57,17 @@ nav ul li a:hover{
     background: #E02C6D;
 }
 
+nav .menu-btn .fa-bars{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
 .login-btn{
     width: 123px;
     padding: 10px 24px;
@@ -70,17 +81,6 @@ nav ul li a:hover{
 
 .login-btn:hover{
     background-image: linear-gradient(to bottom right, rgb(52, 41, 204), #E02C6D);
-}
-
-nav .menu-btn .fa-bars{
-    color: #fff;
-    font-size: 22px;
-    cursor: pointer;
-    display: none;
-}
-
-input[type="checkbox"]{
-    display: none;
 }
 
 /*-------------------
