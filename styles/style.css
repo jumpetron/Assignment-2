@@ -117,6 +117,7 @@ input[type="checkbox"]{
 
 .button:hover{
     background-image: linear-gradient(to bottom right, rgb(52, 41, 204), #E02C6D);
+
 }
 
 .button:hover span {
