@@ -577,20 +577,19 @@ footer>p{
     }
 
     nav ul{
-    position: fixed;
+    position: relative;
     top: 0;
-    left: -100%;
+    left: -500%;
     background: #2D25A0;
-    height: 450px;
+    height: 410px;
     width: 100%;
     text-align: center;
     display: block;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     }
 
     #click:checked ~ ul{
-    left: 0;
-    z-index: 3;
+    left: -20px;
     }
 
     nav ul li{
