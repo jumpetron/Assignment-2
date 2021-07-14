@@ -265,6 +265,7 @@ footer>p{
     list-style-type: none;
     display: inline-block;
     text-align: center;
+    margin: 0 5px;
 }
 
 .fab{
