@@ -40,6 +40,21 @@ nav ul a{
     color: #FFFFFF;
 }
 
+.login-btn{
+    width: 168px;
+    padding: 10px 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-image: linear-gradient(to bottom right, rgb(52, 41, 204), #E02C6D);
+}
+
 /*-------------------
 -----------Button------ */
 
@@ -142,11 +157,13 @@ nav ul a{
     margin-bottom: 10px;
     font-size: 28px;
     font-weight: bold;
+    color: #18191F;
 
 }
 
-.player-name p{
+.player p{
     font-size: 16px;
+    color: #6C6C6C;
 }
 
 .player-info img{
@@ -166,6 +183,7 @@ nav ul a{
 
 .section-title{
     font-size: 48px;
+    color: #0A0826;
 }
 
 .highlight-info{
@@ -174,6 +192,7 @@ nav ul a{
 
 .highlight-info p{
     font-size: 16px;
+    color: #6C6C6C;
     margin-bottom: 24px;
 }
 
@@ -195,7 +214,9 @@ footer{
 }
 
 footer>p{
+    font-size: 18px;
     text-align: center;
+    color: #000000;
     margin: 20px 0 63px 0;
 }
 
@@ -310,6 +331,10 @@ footer>p{
     top: 10%;
     left: 2%;
     margin-bottom: 43px;
+}
+
+.footer-logo img{
+    width: 350px;
 }
 
 }
